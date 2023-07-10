@@ -1,0 +1,15 @@
+import java.util.*;
+public class reserve {
+	public static void main(String[] args) {
+		Scanner a=new Scanner(System.in);
+		System.out.println("enter the string: ");
+		String name=a.nextLine();
+		String empty="";
+		int i,len=name.length();
+		for(i=len-1;i>=0;i--) {
+			empty=empty+name.charAt(i);
+		}
+		System.out.println("Reverse string: "+empty);
+		}
+
+}
